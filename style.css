@@ -19,12 +19,14 @@ body {
 
    p {
     color: #ffffff;
+    text-align: center;
    }
 
   
   table {
-    margin: 0 0 40px 0;
-    width: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     display: table; }
     @media screen and (max-width: 580px) {
@@ -33,30 +35,30 @@ body {
   
 
 
+    th{
+        font-weight: 900;
+        color: #ffffff;
+        background: #ea6153;
+    }
+    @media screen and (max-width: 580px) {
         th{
-            font-weight: 900;
-            color: #ffffff;
-            background: #ea6153;
-        }
-        @media screen and (max-width: 580px) {
-            th{
-              padding: 0;
-              height: 6px; }
-              th .td {
-                display: none; }
-                th .td {
-              margin-bottom: 10px; }
-              th .td:before {
-                margin-bottom: 3px;
-                content: attr(data-title);
-                min-width: 98px;
-                font-size: 10px;
-                line-height: 10px;
-                font-weight: bold;
-                text-transform: uppercase;
-                color: #969696;
-                display: block; } }
-        
+          padding: 0;
+          height: 6px; }
+          th .td {
+            display: none; }
+            th .td {
+          margin-bottom: 10px; }
+          th .td:before {
+            margin-bottom: 3px;
+            content: attr(data-title);
+            min-width: 98px;
+            font-size: 10px;
+            line-height: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #969696;
+            display: block; } }
+    
 
 
 
